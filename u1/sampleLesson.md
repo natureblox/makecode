@@ -3,7 +3,7 @@
 # Lesson 1: Code x Road Network
 
 ## Step 1
-Rename the **run** element of the ``||Player:on chat command||`` block to **road_1**. Select the ``||Blocks:fill with||`` code block and drag it into your ``||Player:on chat command||`` block. 
+你好 **run** element of the ``||Player:on chat command||`` block to **road_1**. Select the ``||Blocks:fill with||`` code block and drag it into your ``||Player:on chat command||`` block. 
 
 ### ~ tutorialhint
 ``` blocks
