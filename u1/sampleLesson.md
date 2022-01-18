@@ -1,9 +1,9 @@
 ### @explicitHints 1
 
-# Lesson 1: Code x Road Network
+# Lesson 1: 编码道路网路
 
 ## Step 1
-将 ``||Player:聊天命令||`` 中的**run**block to **road_1**. Select the ``||Blocks:fill with||`` code block and drag it into your ``||Player:on chat command||`` block. 
+将 ``||Player:聊天命令||`` 中的**run**重命名为**road_1**. 选择``||Blocks:填充方块||`` 代码块并且拖动它到 ``||Player:聊天命令||``块中. 
 
 ### ~ tutorialhint
 ``` blocks
@@ -19,7 +19,7 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 2
-Use the drop-down menu to change the type of block from **Grass** to **Grey Concrete**. 
+使用下拉菜单将块的类型从**草地** 更改为 **灰色混凝土**. 
 ### ~ tutorialhint
 
 ``` blocks
@@ -34,9 +34,7 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 3
-Now open ``||Positions:POSITIONS||`` toolbox drawer and drag the world ``||Positions:[0] [0] [0]||`` code block onto your coding Workspace. 
-Drag the world ``||Positions:[0] [0] [0]||`` block and replace the ``||Positions:relative||`` positions block inside the ``||Blocks:fill||`` block. 
-
+现在打开``||Positions:位置||`` 工具箱抽屉并将世界``||Positions:[0] [0] [0]||`` 代码块拖到您的编码工作区。拖动世界``||Positions:[0] [0] [0]||`` 模块并替换``||Blocks:填充方块|| 内的``||Positions:相对位置||`` 模块。 
 ### ~ tutorialhint
 ``` blocks
 player.onChat("road_1", function () {
@@ -50,7 +48,7 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 4
-Drag another ``||Positions:world [0] [0] [0]||`` positions code block from the ``||Positions:POSITIONS||`` drawer and replace the second ``||Positions:relative||`` positions block inside the ``||Blocks:fill with||`` block. 
+从 ``||Positions:位置||`` 抽屉中拖动另一个 ``||Positions:世界 [0] [0] [0]||`` 模块并替换第二个 ``||Positions:相对位置 ||模块`` 到 ``||Blocks:填充方块||`` 。
 
 ### ~ tutorialhint
 ``` blocks
@@ -65,7 +63,7 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 5
-We are almost ready to test our code, however there is one more important thing we have to do to make this code work properly. Change the center, or **Z** coordinate, to one number lower. In this example, this will be **68**. Now test your code. If you have coded correctly, you should see a road appear in place of the Grass. 
+我们几乎已经准备好测试我们的代码，但是我们还需要做一件更重要的事情来使这段代码正常工作。 将中心或 **Z** 坐标更改为低一位数。 在本例中，这将是 **68**。 现在测试你的代码。 如果您的编码正确，您应该会看到一条道路出现在草地的位置 
 
 ### ~ tutorialhint
 ``` blocks
@@ -81,7 +79,7 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 6
-Repeat the steps for the second road. 
+重复第二条路的步骤。 
 
 ### ~ tutorialhint
 ``` blocks
