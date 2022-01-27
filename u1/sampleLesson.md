@@ -1,3 +1,4 @@
+### @codeStart players set @s makecode 0
 ### @explicitHints 1
 
 # Lesson 1: 编码道路网路
